@@ -1,1 +1,39 @@
 
+---
+
+### `.gitignore`
+
+```plaintext
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data and model files
+*.csv
+*.tsv
+*.json
+*.h5
+*.ckpt
+
