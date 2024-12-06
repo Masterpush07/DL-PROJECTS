@@ -1,1 +1,41 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset files
+*.zip
+/content/data/
+*.csv
+
+# Ignore Kaggle API key
+kaggle.json
+
+# Ignore TensorFlow logs and checkpoints
+logs/
+checkpoints/
+
+# Ignore model files
+*.h5
+*.ckpt
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore matplotlib config files
+matplotlibrc
 
