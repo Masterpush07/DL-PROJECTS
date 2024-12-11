@@ -51,13 +51,60 @@ The sentiment analysis model is built using a Long Short-Term Memory (LSTM) netw
 - **Number of Epochs**: 5  
 - **Validation Split**: 20%  
 
-## How to Use
+   ## How to Use
+
 ### Google Colab Users:
-1. Upload the provided Jupyter Notebook (`IMDB_Reviews_Sentiment_Analysis_LSTM.ipynb`) to Google Colab.  
-2. Install the required dependencies:  
-   ```bash
-   !pip install tensorflow numpy pandas matplotlib 
+1. Upload the provided Jupyter Notebook (`IMDB_Reviews_Sentiment_Analysis_LSTM.ipynb`) to Google Colab.
+2. Install the required dependencies:
+    ```bash
+    !pip install tensorflow numpy pandas matplotlib
+    ```
 3. Run each cell in the notebook to preprocess the data, train the model, and evaluate its performance.
+
+### Other Environments:
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Install the required libraries:
+    ```bash
+    pip install tensorflow numpy pandas matplotlib
+    ```
+3. Run the Jupyter Notebook (`IMDB_Reviews_Sentiment_Analysis_LSTM.ipynb`) locally:
+    ```bash
+    jupyter notebook
+    ```
+4. Follow the notebook instructions to train and test the model.
+
+---
+
+## Technologies
+- **Python**
+- **TensorFlow/Keras**
+- **NumPy**, **Pandas**
+- **Matplotlib**
+
+---
+
+## Results
+The LSTM model achieved high accuracy during evaluation.  
+Here’s a summary of the results:
+- **Test Accuracy**: Approximately **89%**
+
+### Visualization:
+- **Loss and Accuracy Curves**: Indicate stable training performance.
+- **Example Predictions**: Demonstrate the model's effectiveness in classifying sentiments.
+
+---
+
+## Contributors
+- **Pushpanathan**: Development and implementation.
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
 
 
 
